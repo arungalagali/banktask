@@ -5,16 +5,14 @@ import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { BankComponent } from './bank/bank.component';
-import { BankDetailComponent } from './bank/bankdetail.component';
+import { BankComponent } from './bank.component';
 import { FilterPipe } from '.././assets/filter.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     BankComponent,
-    FilterPipe,
-    BankDetailComponent
+    FilterPipe
   ],
   imports: [
     BrowserModule,
